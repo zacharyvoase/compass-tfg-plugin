@@ -7,21 +7,37 @@ This is a port of the [Tiny Fluid Grid][], originally developed by
   [girlfriend]: http://girlfriendnyc.com/
 
 
-## Usage Example
+## Install It.
 
-### HTML
+    [sudo] gem install compass-tfg-plugin
+
+
+## Use It.
+
+If you’re creating a typical standalone project, use:
+
+    compass create -r compass-tfg my_project
+
+Otherwise, make sure you `require 'compass-tfg'` at some point before running
+Compass/Sass.
+
+
+### Haml/HTML
+
+Make your document structure look something like this:
 
     #container
-      <!-- row 1 -->
+      / row 1:
       #col1
         #subcol1
         #subcol2
       #col2
       
-      <!-- row 2 -->
+      / row 2:
       #col3
       #col4
       #col5
+
 
 ### Sass
 
