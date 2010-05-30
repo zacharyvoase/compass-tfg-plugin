@@ -1,8 +1,9 @@
 # Tiny Fluid Grid: Compass Plugin
 
-This is a port of the [Tiny Fluid Grid][], originally developed by
-[Girlfriend][].
+This is a [Compass][] plugin which implements the [tiny fluid grid][],
+originally developed by [Girlfriend][]. Get your semantic grid on.
 
+  [compass]: http://compass-style.org/
   [tiny fluid grid]: http://tinyfluidgrid.com/
   [girlfriend]: http://girlfriendnyc.com/
 
