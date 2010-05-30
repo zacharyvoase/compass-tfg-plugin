@@ -50,7 +50,7 @@ Make your document structure look something like this:
     $tfg-gutter: 30%; // default 20%
     
     #container {
-      @include container;
+      @include tfg-container;
       
       // Row 1
       
