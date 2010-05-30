@@ -9,19 +9,19 @@ This is a port of the [Tiny Fluid Grid][], originally developed by
 
 ## Usage Example
 
-### HTML Document Structure
+### HTML
 
-    div#container
+    #container
       <!-- row 1 -->
-      div#col1
-        div#subcol1
-        div#subcol2
-      div#col2
+      #col1
+        #subcol1
+        #subcol2
+      #col2
       
       <!-- row 2 -->
-      div#col3
-      div#col4
-      div#col5
+      #col3
+      #col4
+      #col5
 
 ### Sass
 
