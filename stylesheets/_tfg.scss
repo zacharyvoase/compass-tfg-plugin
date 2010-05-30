@@ -1,0 +1,36 @@
+@import "compass/utilities/general/clearfix";
+
+$tfg-min-width: 960px !default;
+$tfg-max-width: 1080px !default;
+$tfg-columns: 12 !default;
+$tfg-gutter: 20% !default;
+
+@mixin grid($span) {
+  width: ((100% - $tfg-gutter) * ($span / $tfg-columns)) + ($tfg-gutter * (($span - 1) / $tfg-columns));
+  
+  margin-left: $tfg-gutter / $tfg-columns / 2;
+  margin-right: $tfg-gutter / $tfg-columns / 2;
+  
+  float: left;
+  display: block;
+}
+
+@mixin append($span) {
+  margin-right: ((100% - $tfg-gutter) * ($span / $tfg-columns)) + ($tfg-gutter * (($span + 1) / $tfg-columns / 2));
+}
+
+@mixin prepend($span) {
+  margin-left: ((100% - $tfg-gutter) * ($span / $tfg-columns)) + ($tfg-gutter * (($span + 1) / $tfg-columns / 2));
+}
+
+@mixin container {
+  @include pie-clearfix;
+  
+  min-width: $tfg-min-width;
+  max-width: $tfg-max-width;
+  
+  margin: auto;
+}
+
+@mixin alpha { margin-left:  0; }
+@mixin omega { margin-right: 0; }
