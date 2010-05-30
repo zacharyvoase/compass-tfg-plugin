@@ -3,7 +3,7 @@
 This is a port of the [Tiny Fluid Grid][], originally developed by
 [Girlfriend][].
 
-  [tiny fluid grid system]: http://tinyfluidgrid.com/
+  [tiny fluid grid]: http://tinyfluidgrid.com/
   [girlfriend]: http://girlfriendnyc.com/
 
 
